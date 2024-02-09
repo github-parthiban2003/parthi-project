@@ -1,0 +1,238 @@
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+body{
+    background: white;
+    scroll-behavior: smooth;
+}
+.navigation{
+    color: white;
+    background-color: red;
+    margin-top: -2%;
+    position: static;
+}
+h1{
+    padding: 46px;
+}
+
+#help{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+     text-decoration: none;
+    top: 7%;
+    margin: 0%;
+    position: absolute;
+    padding: 1%;
+    left: 70%;
+    display: flex;
+    gap: 37px;
+    transition: all;
+    transition-duration: 1s;
+    transition-property: all ;
+    transform: scaleY(1.5);
+    animation: both;
+    animation-duration: 2s;
+    animation-name: help;
+}
+#help :hover{
+    text-shadow: 0px 20px 20px #5cfaff, 0px 0px 20px #5cfaff, 0px 0px 40px #5cfaff, 0px 0px 80px #5cfaff;
+}
+#img{
+    margin-top: -10%;
+    left: 0px;
+    position: absolute;
+}
+h2{
+    position: absolute;
+    font-size: -webkit-xxx-large;
+    left: 24%;
+    top: 30%;
+}
+.items{
+    font-size:large;
+    font-family: monospace;
+    top: 10%;
+
+}
+.item1{
+        top: 75%;
+    position: absolute;
+    left: 24%;
+    border: 2px solid black;
+    width: 13%;
+    text-align: center;
+    display: flex;
+    background-color:white;
+    height: 13%;
+}
+.item2{
+    top: 75%;
+    position: absolute;
+    left: 37%;
+    border: 2px solid black;
+    width: 13%;
+    text-align: center;
+    display: flex;
+    background-color: white;
+    height: 13%;
+}
+.item4{
+    top: 75%;
+    position: absolute;
+    left: 48%;
+    border: 2px solid black;
+    width: 13%;
+    text-align: center;
+    display: flex;
+    background-color: white;
+    height: 13%;
+}
+.item3{
+    top: 75%;
+    position: absolute;
+    left: 61%;
+    cursor: pointer;
+    width: 16%;
+    text-align: center;
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    height: 13.7%;
+    transition: all;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.item3 :hover{
+    bottom: 2px solid black;
+    color:rgb(255, 255, 255);;
+}
+#offer{
+    border: 2px solid black;
+    width: 67%;
+    height: 37%;
+    left: 18%;
+    top: 107%;
+    border-radius: 19px;
+    margin: auto;
+    position: absolute;
+    background-color: white;
+}
+#boxes{
+    width: 99%;
+    height: 58%;
+    gap: 0%;
+    position: absolute;
+    top: 36%;
+    left: 0.7%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: baseline;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+}
+.box1{
+    display: grid;
+    border: 2px solid black;
+    width: 178%;
+    height: 130px;
+    border-radius: 14px;
+    background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
+    color: rgb(255, 255, 255);
+    align-content: space-around;
+}
+.box2{
+    display: grid;
+    align-content: space-around;
+
+width: 178%;
+height: 130px;
+border-radius: 14px;
+color: rgb(255, 255, 255);
+background-image: linear-gradient(71.04deg, rgb(72, 0, 4) -6.92%, rgb(216, 78, 85) 109.43%);
+
+}
+.box3{
+    display: grid;
+    align-content: space-around;
+    background-image: linear-gradient(71.04deg, rgb(14, 113, 67) -6.92%, rgb(115, 236, 179) 109.43%);
+    border: 2px solid black;
+width: 178%;
+height: 130px;
+border-radius: 14px;
+color: rgb(255, 255, 255);
+}
+
+.box4{
+    display: grid;
+    align-content: space-around;
+    background-image: linear-gradient(71.04deg, rgb(24, 125, 151) -6.92%, rgb(109, 213, 237) 109.43%);
+border: 2px solid black;
+width: 178%;
+height: 130px;
+border-radius: 14px;
+color: rgb(255, 255, 255);
+
+}
+.box5
+{
+    display: grid;
+    align-content: space-around;
+    background-image: linear-gradient(71.04deg, rgb(24, 125, 151) -6.92%, rgb(109, 213, 237) 109.43%);
+border: 2px solid black;
+width: 178%;
+border-radius: 14px;
+height: 130px;
+color: rgb(255, 255, 255);
+}
+.box6
+{
+    display: grid;
+    align-content: space-around;
+
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(71.04deg, rgb(206, 119, 0) -6.92%, rgb(255, 194, 111) 109.43%);
+ border: 2px solid black;
+width: 178%;
+border-radius: 14px;
+height: 130px;
+}
+.btn{
+    position: absolute;
+
+}
+#operators{
+    BORDER: none;
+    WIDTH: 826PX;
+    height: 212px;
+    position: absolute;
+    top: 599%;
+    left: 20%;
+    }
+    .op{
+        cursor: pointer;
+        display: flex;
+    gap: 87px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: baseline;
+    justify-content: space-around;
+    }
+    .op :hover{
+        border-bottom: 2px groove black;
+        background: grey;
+        border-bottom-color: black;
+    }
